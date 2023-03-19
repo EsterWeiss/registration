@@ -1,4 +1,4 @@
-How to use/install ffmpeg using Docker
+# How to use/install ffmpeg using Docker
 
 This Dockerfile provides a way to install FFmpeg on any system that has Docker installed.
 Prerequisites
@@ -6,7 +6,7 @@ Prerequisites
 Docker must be installed on the host system.
 Access to the internet to download the base Ubuntu image and FFmpeg package.
 
-Installation
+## Installation
 
 To build the Docker image:
 
@@ -24,7 +24,7 @@ bash
 
 This command will print the version of FFmpeg installed in the container.
 
-Usage
+## Usage
 
 After installing FFmpeg, you can use it to perform a variety of tasks such as converting video and audio files, resizing videos, and applying filters.
 
@@ -38,7 +38,7 @@ In this example, the -v option is used to mount two volumes (/path/to/input and 
 
 Note that you can modify the FFmpeg command to suit your specific needs.
 
-References
+## References
 
 -   FFmpeg Documentation
 -   Docker Documentation
