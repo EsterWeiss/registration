@@ -40,7 +40,6 @@ Note that you can modify the FFmpeg command to suit your specific needs.
 
 References
 
-FFmpeg Documentation
-
-Docker Documentation
+-   FFmpeg Documentation
+-   Docker Documentation
 
